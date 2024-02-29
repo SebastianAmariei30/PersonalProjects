@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.demogui.LoginController">
+   <children>
+      <Button layoutX="150.0" layoutY="106.0" mnemonicParsing="false" onAction="#handleLogIn" prefHeight="99.0" prefWidth="273.0" text="Log In" />
+      <Button layoutX="150.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleSignUp" prefHeight="99.0" prefWidth="273.0" text="Sign Up" />
+   </children>
+</AnchorPane>

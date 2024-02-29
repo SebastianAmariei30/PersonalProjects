@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="520.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.map.demogui.UserController">
+
+  <SplitPane dividerPositions="0.7989969135802467" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+      <SplitPane prefHeight="329.0" prefWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="442.0" prefWidth="666.0">
+          <TableView fx:id="tableView" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="666.0" AnchorPane.bottomAnchor="-79.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+              <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="ID" />
+              <TableColumn fx:id="tableColumnFirstName" prefWidth="75.0" text="PRENUME" />
+              <TableColumn fx:id="tableColumnLastName" prefWidth="75.0" text="NUME" />
+            </columns>
+            <columnResizePolicy>
+              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+          </TableView>
+        </AnchorPane>
+      </SplitPane>
+    </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="74.0" prefWidth="666.0">
+      <HBox prefHeight="34.0" prefWidth="655.0" spacing="20.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0">
+        <padding>
+          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+        </padding>
+        <Button mnemonicParsing="false" onAction="#handleUserOptions" text="User Options" />
+        <Button mnemonicParsing="false" onAction="#handleAddUser" text="Add" />
+        <Button layoutX="116.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleDeleteUser" text="Delete" />
+        <Button layoutX="174.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleUpdateUser" text="Update" />
+        <Button layoutX="174.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleFriendships" text="Friendships" />
+        <Button layoutX="320.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleConvUsers" text="Conversations" />
+      </HBox>
+         <Label layoutX="322.0" layoutY="17.0" prefHeight="18.0" prefWidth="77.0" text="Page number" />
+         <Label layoutX="443.0" layoutY="17.0" prefHeight="18.0" prefWidth="50.0" text="Page size" />
+         <TextField fx:id="textPageNumber" layoutX="400.0" layoutY="13.0" prefHeight="26.0" prefWidth="31.0" />
+         <TextField fx:id="textPageSize" layoutX="501.0" layoutY="13.0" prefHeight="26.0" prefWidth="31.0" />
+     <Button layoutX="548.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleUpdatePage" prefHeight="26.0" prefWidth="86.0" text="Update Page" />
+    </AnchorPane>
+  </SplitPane>
+</AnchorPane>
