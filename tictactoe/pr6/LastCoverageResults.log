@@ -1,0 +1,22 @@
+[2023-06-14 19:37:09] [info] Start Program:
+Path:"C:\Users\andre\source\repos\pr6\x64\Debug\pr6.exe"
+Arguments:
+Working directory: "C:\Users\andre\source\repos\pr6\pr6\"
+Modules: Selected: C:\Users\andre\source\repos\pr6\x64\Debug\pr6.exe Excluded: 
+Sources: Selected: C:\Users\andre\source\repos\pr6\pr6 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\andre\AppData\Local\Temp\3izdwmfh.rmd 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-06-14 19:37:09] [info] Module: C:\Users\andre\source\repos\pr6\x64\Debug\pr6.exe is selected because it matches selected pattern: C:\Users\andre\source\repos\pr6\x64\Debug\pr6.exe
+[2023-06-14 19:37:14] [info] ----------------------------------------------------
+[2023-06-14 19:37:14] [info] Coverage binary generated in file: C:\Users\andre\AppData\Local\Temp\3izdwmfh.rmd
+[2023-06-14 19:37:14] [info] ----------------------------------------------------
+[2023-06-14 19:37:14] [error] Your program stop with error code: 3
